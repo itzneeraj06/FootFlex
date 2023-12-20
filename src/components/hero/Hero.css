@@ -1,7 +1,10 @@
 .hero{
-    height: 100vh;
-    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+    height: 90vh;
+    width: 100%;
     display: flex;
+    background: rgb(255,255,255);
+background: linear-gradient(38deg, rgba(255,255,255,1) 0%, rgba(215,233,255,1) 100%);
+
 
 
 }
@@ -16,7 +19,7 @@
 
 }
 .hero-left h2{
-    color: #090909;
+    color: #6e6c6c;
     font-size: 26px;
     font-weight: 600;
 }
@@ -45,14 +48,25 @@
     height: 70px;
     border-radius:75px ;
     margin-top: 30px;
-    background: #e10101;
+    background: #46C2CB;
     color: white;
     font-size:22px ;
     font-weight: 500;
+}
+.hero-latest-btn:hover{
+    font-size: 22.2px;
+    box-shadow: 1px 1px 5px #090909;
 }
 .hero-right{
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.hero-right img{
+    height: 600px;
+    filter: drop-shadow(22px 27px 18px #6a6a6a);; 
+}
+.hero-right img:hover{
+    height: 610px;
 }

@@ -4,7 +4,7 @@ import exclusive_image from '../assets/Assets/exclusive_image.png'
 
 const Offers = () => {
   return (
-    <div className='offers'>
+    <div className='offers'><div className="offerinner">
         <div className="offers-left">
             <h1>Exclusive</h1>
             <p>Only on Best Sellers products</p>
@@ -14,7 +14,7 @@ const Offers = () => {
         <div className="offers-right">
             <img src={exclusive_image} alt="" />
         </div>
-    </div>
+    </div></div>
   )
 }
 

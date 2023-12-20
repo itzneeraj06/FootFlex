@@ -2,15 +2,142 @@
     margin: 100px 100px;
 
 
+
 }
 .cartitemformatmain{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #8c0000;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.cartitemformatformatmain{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+
 
 }
 .Cartitem hr{
+    height: 1px;
+    background: #e3e3e3;
+    border: none;
+
 
 }
 .cartitemformat{
+    font-size: 17px;
+    font-weight: 500;
+    
+
+
 
 
 }
-.
+.carticonproducticon{
+    height: 62px;
+}
+.removeicon{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+.cartitemquantity{
+    width: 45px;
+    height: 30px;
+    background-color: #eeeeee;
+    border: 1px solid black;
+
+
+}
+.cartitemdown{
+    display: flex;
+    margin: 100px 0px;
+
+
+
+}
+.cartitemtotal{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+
+
+
+}
+
+.cartitemtotalitem{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+
+
+}
+.cartitemtotal button{
+    width: 260px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: #27d0d5;
+    color: #fff;
+    font-size: 16px;
+    font-weight:600 ;
+    cursor: pointer;
+
+}
+.carttotalitem{
+    display: flex;
+
+
+
+}
+.cartitemspromo{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+
+
+
+}
+.cartitemspromo p{
+    color: #555;
+
+}
+.cartitemspromo input{
+    border: none;
+    outline:none;
+    background: transparent;
+    font-size: 16px;
+    width: 330px;
+    height:50px ;
+
+}
+.cartitemspromo button{
+    width: 170px;
+    height: 55px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    border: none;
+
+}
+.cartitempromobox{
+    display: flex;
+    width: 500px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 58px;
+    background: #eaeaea;
+
+
+}

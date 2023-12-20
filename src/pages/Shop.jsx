@@ -4,6 +4,7 @@ import Popular from '../components/popular/Popular.jsx'
 import Offers from '../components/offers/Offers.jsx'
 import Newcollections from '../components/newcollection/Newcollections.jsx'
 import Newsletter from '../components/newsletter/Newsletter.jsx'
+import './CSS/shop.css'
 const Shop = () => {
   return (
     <div>
