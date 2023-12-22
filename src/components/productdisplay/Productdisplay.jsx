@@ -53,7 +53,7 @@ const Productdisplay = (props) => {
                 </div>
                 <button onClick={()=>{addtocart(product.id)}}>Add to Cart</button>
                 <p className='productdisplayrightcategory'>
-                    <span>Category:</span>Women,t-Shirt,CropTop
+                    <span>Category:</span>Shoes,Men,Sneakers
                 </p>
                 <p className='productdisplayrightcategory'>
                     <span>Tags:</span>Modern,Latest

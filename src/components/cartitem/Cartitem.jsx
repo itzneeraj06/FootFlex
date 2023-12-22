@@ -4,7 +4,7 @@ import remove_icon from '../assets/Assets/cart_cross_icon.png';
 import './cartitem.css'
 import Ordercompleted from '../ordercompleted/Ordercompleted';
 const Cartitem = () => {
-  const { gettotalcartamount,all_product, cartitems, removefromcart } = useContext(ShopContext);
+  const { gettotalcartamount,all_product, cartitems, removetocart } = useContext(ShopContext);
 
   return (
     <div className='Cartitem'>
@@ -28,7 +28,7 @@ const Cartitem = () => {
                   <p>${e.new_price}</p>
                   <button className='cartitemquantity'>{cartitems[e.id]}</button>
                   <p>${e.new_price * cartitems[e.id]}</p>
-                  <img className='removeicon' src={remove_icon} alt="" onClick={() => { removefromcart(e.id) }} />
+                  <img className='removeicon' src={remove_icon} alt="" onClick={() => { removetocart(e.id) }} />
                 </div>
                 <hr />
               </div>)
